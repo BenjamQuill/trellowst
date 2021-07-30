@@ -23,5 +23,10 @@
   "bugs": {
     "url": "https://github.com/BenjamQuill/trellowst/issues"
   },
-  "homepage": "https://github.com/BenjamQuill/trellowst#readme"
+  "homepage": "https://github.com/BenjamQuill/trellowst#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "sequelize": "^6.6.5"
+  }
 }
