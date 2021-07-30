@@ -10,6 +10,12 @@
 
 ## Pour jouer avec l'api
 
-1. ```bash
+* Installation des packages nécessaires à l'api
+```bash
 npm install
+```
+* Création de la base de données et de ses tables (REVOIR LES COMMANDES)
+```bash
+createdb nomDeLaBase
+psql -d nomDeLaBase -f ./docs/createTables.sql
 ```

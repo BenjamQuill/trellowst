@@ -1,0 +1,27 @@
+{
+  "name": "trellowst",
+  "version": "1.0.0",
+  "description": "Create, delete and update lists whit cards. To organise your day.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BenjamQuill/trellowst.git"
+  },
+  "keywords": [
+    "okanban",
+    "trello",
+    "organisation"
+  ],
+  "author": "BenjamQuill",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BenjamQuill/trellowst/issues"
+  },
+  "homepage": "https://github.com/BenjamQuill/trellowst#readme"
+}
