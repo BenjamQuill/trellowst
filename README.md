@@ -14,8 +14,8 @@
 ```bash
 npm install
 ```
-* Création de la base de données et de ses tables (REVOIR LES COMMANDES)
-```bash
-createdb nomDeLaBase
-psql -d nomDeLaBase -f ./docs/createTables.sql
-```
+* Base de données et de ses tables
+1. Créer une base de données avec le nom souhaité (Noter nom, pwd pour le .env)
+    1. Faire sqitch deploy : `sqitch deploy db:pg:nomDb`
+    2. Faire un test : `sqitch verify db:pg:nomDb`
+1. Insérer des données dans la base
