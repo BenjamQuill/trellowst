@@ -18,4 +18,4 @@ npm install
 1. Créer une base de données avec le nom souhaité (Noter nom, pwd pour le .env)
     1. Faire sqitch deploy : `sqitch deploy db:pg:nomDb`
     2. Faire un test : `sqitch verify db:pg:nomDb`
-1. Insérer des données dans la base
+1. Seeding : insérer des données dans la base
