@@ -1,0 +1,6 @@
+%syntax-version=1.0.0
+%project=trellowst
+%uri=git@github.com:BenjamQuill/trellowst.git
+
+init 2021-08-10T08:02:33Z Etudiant O'clock <student@teleporter> # initialisation de la database
+data 2021-08-10T08:12:16Z Etudiant O'clock <student@teleporter> # ajout de quelques données dans la database
