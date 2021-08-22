@@ -20,3 +20,29 @@ name=Deuxième liste
 
 ### delete list
 DELETE http://localhost:3000/lists/2
+
+### getAllCards from list 1
+GET http://localhost:3000/lists/1
+cards
+
+### get cards n2
+GET http://localhost:3000/cards/2
+
+### new cards n3
+POST http://localhost:3000/cards
+Content-Type: application/x-www-form-urlencoded
+
+content=3ème carte
+&color=#c1e7ff
+&list_id=1
+
+### get all tags
+GET http://localhost:3000/tags
+
+### create tag
+POST http://localhost:3000/tags
+Content-Type: application/x-www-form-urlencoded
+
+name=Nice
+&color=#CCC
+
