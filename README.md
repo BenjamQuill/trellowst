@@ -15,7 +15,17 @@
 npm install
 ```
 * Base de données et de ses tables
-1. Créer une base de données avec le nom souhaité (Noter nom, pwd pour le .env)
-    1. Faire sqitch deploy : `sqitch deploy db:pg:nomDb`
-    2. Faire un test : `sqitch verify db:pg:nomDb`
-1. Seeding : insérer des données dans la base
+    * Créer une base de données avec le nom souhaité (Noter nom, pwd pour le .env)
+    * Faire sqitch deploy : `sqitch deploy db:pg:nomDb`
+    * Faire un test : `sqitch verify db:pg:nomDb`
+    * Seeding (non obligatoire) : insérer des données dans la base
+* .ENV à créer avec l'exemple `env.example`
+* Lancer le serveur dans un terminal (à la racine du projet)
+```bash
+node index.js
+```
+* Lancer un navigateur via le fichier `/front/index.html`
+
+> Il faut avoir une connexion à notre base qui fonctionne
+> Il faut que l'api soit lancée sur le bon PORT
+> Il faut que le serveur soit lancé avant le navigateur pour éviter les erreurs liées à la connexion database
